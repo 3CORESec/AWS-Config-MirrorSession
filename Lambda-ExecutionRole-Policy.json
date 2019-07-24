@@ -1,0 +1,29 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Effect": "Allow",
+          "Action": [
+              "logs:CreateLogStream",
+              "logs:PutLogEvents",
+              "logs:CreateLogGroup",
+              "ec2:DescribeInstances",
+              "ec2:describeTrafficMirrorSessions",
+              "config:Put*",
+              "config:Get*",
+              "config:List*",
+              "config:Describe*",
+              "config:BatchGet*",
+              "config:Select*"
+          ],
+          "Resource": "*"
+      },
+      {
+          "Effect": "Allow",
+          "Action": [
+              "s3:GetObject"
+          ],
+          "Resource": "arn:aws:s3:::*/AWSLogs/*/Config/*"
+      }
+  ]
+}
