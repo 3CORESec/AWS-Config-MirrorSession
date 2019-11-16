@@ -3,8 +3,8 @@
 # AWS Config - Mirror Session
 Check compliance of EC2 instances for Session Mirroring
 
-![image](https://img.shields.io/badge/ConfigMirrorSession-0.1-GREEN)
-![image](https://img.shields.io/badge/BuiltOn-AWS-orange)
+[![image](https://img.shields.io/badge/ConfigMirrorSession-0.1-GREEN)](#)
+[![image](https://img.shields.io/badge/BuiltOn-AWS-orange)](#)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 # AWS Config
